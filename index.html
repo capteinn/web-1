@@ -1,9 +1,180 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Berkenalan dengan HTML</title>
+	<style type="text/css">
+		#warna-merah {
+			color: green;
+			padding: 10px;
+			font-size: 40px;
+			font-weight: bold;
+		}
+
+		.padding-10px {
+			padding: 100px;
+		}
+
+		.p-1 td {
+			padding: 20px;
+		}
+
+		.html {
+			background-color: #ddd;
+			color: green;
+			font-weight: bold;
+		}
+
+		.css {
+			background-color: #ddd;
+			color: red;
+			font-weight: bold;
+		}
+
+		.nama {
+			font-weight: bold;
+			text-align: center;
+		}
+	</style>
 </head>
 <body>
-	Hai, aku abdur :3
+	<h1>THE WORLD'S LARGEST WEB DEVELOPER SITE</h1>
+	<h1>Judul yang mengawali petualanganku</h1>
+	
+	<p>Sebuah paragraf yang mendeskripsikan jalanku</p>
+	
+	<button>Tombol untuk memulai hariku</button>
+	
+	<h2>Sebuah Afirmasi</h2>
+
+	<!-- Ini adalah tag unordered list -->
+	<ul>
+		<li>Aku bisa</li>
+		<li>Aku bisa</li>
+		<li>Aku bisa</li>
+	</ul>
+
+	<!-- Aku ada disini, namun kamu tidak bisa melihatku disana (browser) -->
+
+	<hr> <!-- Sebuah garis kehidupan -->
+	
+	<ol>
+		<li>Aku bisa</li>
+		<li>Aku bisa</li>
+		<br><br> <!-- Terkadang terdapat jeda-jeda kehidupan --> 
+		<li>Aku bisa</li>
+	</ol>
+
+	<!-- href linknya menuju kemana -->
+	<!-- title tooltip (muncul saat di hover) -->
+	<!-- target buka halaman baru saat di klik -->
+
+	<p>
+		Tempat menimba ilmu : 
+		<br>
+		<a href="https://ugm.ac.id" title="ugm">Mulai</a>
+		<br>
+		<a href="https://ugm.ac.id" title="ugm" target="_blank">Mulai</a>
+	</p>
+
+	<hr>
+
+	<img src="https://ugm.ac.id/galleries/crop/13137--730x420px.jpeg" title="Kuliah Umum Awali Tahun Akademik Baru Program" alt="Kuliah Umum Awali Tahun Akademik Baru Program">
+
+	<hr>
+
+	<img src="img/ugm.jpeg" title="Kuliah Umum Awali Tahun Akademik Baru Program" alt="Kuliah Umum Awali Tahun Akademik Baru Program">
+
+	<h2>Kuliah Umum Awali Tahun Akademik Baru Program Pascasarjana</h2>
+	<p>
+		UGM menyelenggarakan Kuliah Perdana Mahasiswa Baru Program Pascasarjana Semester Genap Tahun Akademik 2019/2020, Senin (24/2) di Auditorium Sekolah Pascasarjana UGM.Pada penerimaan mahasiswa kali ini, UGM menerima mahasiswa baru dari [...]
+	</p>
+
+	<p>
+		Ini adalah paragraf biasa dan <b>ini dicetak tebal</b>
+	</p>
+
+	<p>
+		Ini adalah paragraf biasa dan <u>ini dicetak garis bawah</u>
+	</p>
+
+	<p>
+		Ini adalah paragraf biasa dan <i>ini dicetak miring</i>
+	</p>
+	
+	<ul>
+		<li style="color: red">Merah</li>
+		<li style="color: blue">Biru</li>
+		<li style="color: green">Hijau</li>
+		<li style="color: yellow">Kuning</li>
+		<li style="color: #eea8b9">Kustom</li>
+	</ul>
+
+	<table style="border-collapse: collapse;" border="1">
+		<tr>
+			<th style="padding: 10px" rowspan="2">No.</th>
+			<th rowspan="2">Nama</th>
+			<th style="padding: 10px;" rowspan="2">Jabatan</th>
+			<th colspan="2">Status</th>
+			<th rowspan="2">Aksi</th>
+		</tr>
+
+		<tr id="warna-merah">
+			<td>2019</td>
+			<td>2020</td>
+		</tr>
+
+		<tr>
+			<td style="padding: 10px;">1.</td>
+			<td style="padding: 10px;">Nanang</td>
+			<td style="padding: 10px;">Ketua</td>
+			<td>Lajang</td>
+			<td>Lajang</td>
+			<td>
+				<button>Edit</button>
+				<button>Delete</button>
+			</td>
+		</tr>
+
+		<tr>
+			<td class="padding-10px">2.</td>
+			<td class="padding-10px">Arif</td>
+			<td class="padding-10px">Wakil</td>
+			<td class="padding-10px">Lajang</td>
+			<td class="padding-10px">Lajang</td>
+			<td>
+				<button>Edit</button>
+				<button>Delete</button>
+			</td>
+		</tr>
+	</table>
+
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+
+	<h1>Form Login</h1>
+
+	<form>
+		<input type="text" placeholder="Nama">
+		<br>
+		<br>
+		<input type="password" placeholder="Password">
+		<br>
+		<br>
+		<input type="submit" value="Daftar">
+	</form>
+
+	<br>
+	<br>
+	<br>
+	<br>
+
+	<h1>Taruh disini</h1>
+	<p>Advanced Tablenya :D</p>
+	
 </body>
 </html>
