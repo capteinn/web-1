@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pertemuan web 1 - Intro HTML</title>
+</head>
+<body>
+
+	<!-- element h1 adalah sebuah judul -->
+	<!-- Komentar ini tidak terlihat di browser kalian, tapi tetap ada di kodingan kalian :D -->
+
+	<h1>Ini adalah Website pertamaku</h1>
+	<p>
+		Ini adalah sebuah paragraf yang mengawali pertemuan pagi ini. Saya sangat senang sekali bisa belajar HTML di kampus tercinta kita yee :D /
+
+		<br>
+		<br>
+
+		Ini adalah sebuah paragraf yang mengawali <mark>text ini ter-highlight</mark>. 
+
+		Saya mencoba untuk <del>berhenti</del> memulai 
+
+		<ins>sekarang!</ins> 
+
+		ini juga <u>text underlined</u> 
+
+		ini <i>text italic</i>
+
+		ini juga <b>text bold</b>.
+
+		Saya sangat senang sekali bisa belajar HTML di kampus tercinta kita yee :D /
+	</p>
+
+	<p>&nbsp;&nbsp;&nbsp;&nbsp; Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna 				aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	<h1>Ini adalah langkah pertama kita :D Semangat!!!</h1>
+
+	<h3>Ini adalah to-do-list hari ini :</h3>
+
+	<!-- ul adalah un-ordered-list -->
+	<ul>
+		<li>Belajar HTML</li>
+		<li>Belajar membuat kerangka</li>
+		<li>Belajar untuk terus belajar</li>
+	</ul>
+
+	<!-- ol adalah ordered list -->
+	<!-- dia list yang ada nomer urutnya -->
+	<h3>Tutorial belajar HTML</h3>
+	<ol>
+		<li>Buat root html</li>
+		<li>Belajar heading h1-h6</li>
+	</ol>
+
+	<h3>Sebuah Afirmasi</h3>
+	<ul>
+		<li>Aku bisa, aku pasti bisa!</li>
+		<li>Aku bisa, aku pasti bisa!</li>
+		<li>Aku bisa, aku pasti bisa!</li>
+	</ul>
+
+	<h2>Ini adalah progress web kita</h2>
+
+	<progress value="50" max="100"></progress>
+	<progress value="70" max="100"></progress>
+	<progress value="90" max="100"></progress>
+
+	<h3>Kita coba element lainnya :D</h3>
+
+	<p>
+		Kita coba <s>text yang dicoret</s>
+		<br>
+
+		Ini 2 pangkat 3 = 2<sup>3</sup>
+		<br>
+
+		Ini 2 log 5 = <sup>2</sup>log<sub>5</sub>
+	</p>
+
+	<h3>Ini adalah implementasi atribut</h3>
+
+	<!-- a itu link -->
+	<!-- atribut title untuk tooltip -->
+	<a href="https://ugm.ac.id" title="hai :D">Ini adalah link UGM :D /</a>
+
+	<br>
+
+	<!-- target itu untuk new tab -->
+	<a href="https://ugm.ac.id" target="_blank" title="hai :D">
+		Ini adalah link UGM :D /
+	</a>
+
+	<hr>
+	<h4>Details dropdown</h4>
+	<!-- Detail untuk membuat detail suatu element, selain summary akan tersembunyi hingga summary di klik :D -->
+	<details>
+		<summary>Ini adalah judul yang tampak dan bisa di klik</summary>
+
+		<p>Ini adalah paragraf yang nampak saat judul di eksekusi.</p>
+
+		<p>blablablabla</p>
+	</details>
+
+	<p>
+		Saya sedang memencet <kbd>SHIFT</kbd> di keyboard. ini adalah <small>tulisan yang diperkecil</small>
+	</p>
+
+	<code>
+		function namaku(){
+			return $nama;
+		}
+	</code>
+
+	<pre>
+		Ini adalah text biasa
+					ini text dengan 2 tab
+ini tanpa tab
+								ini text banyak tab
+	</pre>
+
+	<h5>Ini gambarnya dari internet</h5>
+	<img src="https://ugm.ac.id/galleries/crop/13140--730x420px.jpg">
+
+	<hr>
+	<small>25 FEBRUARI 2020</small>
+	<br>
+	<br>
+	<img src="https://ugm.ac.id/galleries/crop/13140--730x420px.jpg" alt="Kuliah Umum Awali Tahun Akademik Baru Program" width="500">
+	<h4>Satyawan Pudyatmoko Dikukuhkan Sebagai Guru Besar</h4>
+	<p>
+		Dosen Fakultas Kehutanan UGM, Prof. Dr. Satyawan Pudyatmoko, M.Sc., IPU., dikukuhkan sebagai guru besar dalam bidang ilmu pengelolaan satwa liar pada Fakultas [...]
+	</p>
+	<a href="https://ugm.ac.id/id/berita/19068-satyawan-pudyatmoko-dikukuhkan-sebagai-guru-besar" target="_blank">Baca selengkapnya</a>
+	<hr>
+
+	<!-- CSS -->
+
+	<h5>Table</h5>
+
+	<table style="border-collapse: collapse;" border="1">
+		<tr>
+			<th rowspan="2" style="padding: 20px; background-color: #c8948a; color: #FFF"></th>
+			<th style="color: green" rowspan="2">Nama</th>
+			<th style="color: gray" rowspan="2">Kelas</th>
+			<th colspan="2">Status</th>
+			<th style="background-color: red" rowspan="2">Aksi</th>
+		</tr>
+
+		<tr>
+			<th>2020</th>
+			<th>2019</th>
+		</tr>
+
+		<tr>
+			<td>1</td>
+			<td>Abdur</td>
+			<td><img src="img/ugmac.jpg"  width="100"></td>
+			<td>LULUS</td>
+			<td>LULUS</td>
+			<td><a href="#">edit</a> <a href="#">hapus</a></td>
+		</tr>
+
+		<tr>
+			<td>2</td>
+			<td>Budi</td>
+			<td>TRPLA</td>
+			<td>LULUS REVISI</td>
+			<td>LULUS</td>
+			<td><a href="#">edit</a> <a href="#">hapus</a></td>
+		</tr>
+	</table>
+
+	<h6>FORM</h6>
+
+	<form>
+		<h4>Login</h4>
+
+		<input type="text" placeholder="Masukkan Username">
+		<br>
+		<br>
+		<input type="password" placeholder="Password">
+		<br>
+		<br>
+		<!-- radio jangan lupa namenya sama ya -->
+		<input type="radio" name="gender">Pria
+		<input type="radio" name="gender">Wanita
+		<input type="radio" name="gender">Undefined
+		<br>
+		<br>
+		<!-- select option itu untuk dropdown list -->
+		<select>
+			<option>Pria</option>
+			<option>Wanita</option>
+		</select>
+
+		<br>
+		<br>
+		<input type="submit" value="LOGIN">
+
+		
+	</form>
+
+
+
+</body>
+</html>
