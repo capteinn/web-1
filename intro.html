@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Intro CSS</title>
+
+	<style type="text/css">
+		body {
+			margin: 0;
+			padding: 0;
+		}
+
+		/*Ini adalah contoh id selector*/
+		#section {
+			height: 100px;
+			background-color: linen;
+		}
+
+		/*Ini adalah contoh class selector*/
+		.danger {
+			color: red;
+		}
+
+		.box-tomato {
+			height: 100px;
+			width: 100px;
+			background-color: tomato;
+		}
+
+		.box-violet {
+			height: 100px;
+			width: 100px;
+			background-color: violet;
+		}
+
+		.box-indigo {
+			height: 100px;
+			width: 100px;
+			background-color: indigo;
+		}
+
+		.box-tomato, .box-violet, .box-indigo {
+			border: 3px solid #000;
+			display: inline-block;
+		}
+
+		.dotted {border-style: dotted;}
+		.dashed {border-style: dashed;}
+		.solid {border-style: solid;}
+		.double {border-style: double;}
+		.groove {border-style: groove;}
+		.ridge {border-style: ridge;}
+		.inset {border-style: inset;}
+		.outset {border-style: outset;}
+		.none {border-style: none;}
+		.hidden {border-style: hidden;}
+		.mix {border-style: dotted dashed solid double;}
+
+		.text-shadow {
+		  text-shadow: 2px 2px 5px red;
+		}
+
+		.box-shadow {
+		  box-shadow: 10px 10px 5px grey;
+		}
+
+		.border-radius-10 {
+			border-radius: 10px;
+		}
+
+	</style>
+</head>
+<body>
+	<section id="section">
+		<h3>Ini adalah judul yang sangat luar biasa</h3>
+		<p>Aku sangat <strong class="danger">bersemangat</strong> akan untuk memperlajari css :D</p>
+
+		<hr>
+
+		<div class="box-tomato">
+			
+		</div>
+
+		<div class="box-violet">
+			
+		</div>
+
+		<div class="box-indigo box-shadow border-radius-10">
+			
+		</div>
+	</section>
+</body>
+</html>

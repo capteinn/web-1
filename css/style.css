@@ -1,0 +1,50 @@
+/*
+Author : Abdurrahman Trimanto
+Type : CSS
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Open Sans";
+}
+
+nav {
+	background-color: #FFFFFF;
+
+	/*padding: 10px 0;*/
+	/*padding: atasbawah kirikanan;*/
+	/*padding: atas kanan bawah kiri;*/
+	padding: 10px 20px;
+	height: 60px;
+	width: 100%;
+	position: fixed;
+	box-shadow: 10px 10px 10px #FAFAFA;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	float: right;
+	margin-right: 30px;
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 0 10px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#navbar-logo {
+	padding-left: 20px;
+}
+
+section	{
+	padding: 50px 0;
+}
